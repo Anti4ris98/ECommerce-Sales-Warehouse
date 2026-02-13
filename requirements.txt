@@ -1,0 +1,13 @@
+# Core dependencies for E-Commerce Data Warehouse Pipeline
+
+# Kafka (Python 3.13+ compatible version)
+kafka-python-ng==2.2.2
+
+# PostgreSQL
+psycopg2-binary==2.9.11
+
+# HTTP Requests
+requests==2.32.3
+
+# dbt for analytics
+dbt-postgres==1.8.0

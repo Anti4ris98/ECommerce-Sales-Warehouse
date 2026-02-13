@@ -1,0 +1,1 @@
+{"_invocation_id": "c94aed56-b974-434b-be32-e6cc73496494", "linked": {"0": {"name": "model.ecommerce_dw.customer_ltv", "type": "model"}, "1": {"name": "model.ecommerce_dw.stg_sales", "type": "model", "succ": [0, 2, 3]}, "2": {"name": "model.ecommerce_dw.daily_sales", "type": "model"}, "3": {"name": "model.ecommerce_dw.product_performance", "type": "model"}}}
