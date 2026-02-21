@@ -17,7 +17,7 @@ def create_producer():
     # Wait for Kafka to start
     time.sleep(10)
     return KafkaProducer(
-        bootstrap_servers=['localhost:9092'],
+        bootstrap_servers=['kafka:29092'],  # Match batch-etl port!
         value_serializer=lambda v: json.dumps(v).encode('utf-8')
     )
 

@@ -57,7 +57,6 @@ Then open Grafana: http://localhost:3000 (admin/admin)
 ├── start.ps1               # Automated startup
 ├── stop.ps1                # Stop pipeline
 ├── apply_schema.ps1        # Database schema setup
-├── dbt_refresh.ps1         # Manual dbt refresh
 ├── docker-compose.yml      # Full stack orchestration
 ├── Dockerfile.spark        # Spark container
 ├── requirements.txt        # Python dependencies
